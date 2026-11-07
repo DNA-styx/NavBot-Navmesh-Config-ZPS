@@ -25,7 +25,7 @@ Config file of key binds to help with NavBot with Zombie Panic: Source https://g
 | Keypad PLUS         | Add Waypoint                          | Adds a waypoint.                                                                                 |
 | Keypad MINUS        | Delete Waypoint                       | Deletes the nearest waypoint.                                                                         |
 | Keypad ENTER        | Nav Analyze                           | Save and Compress Nav mesh. |
-| Insert              | Show Spawn Points                     | Displays spawn points (doesn’t include teleport-only spawns on some maps).                                     |
+                                    |
 | Page Up             | Toggle NoClip                         | Enable / Disable noclip mode.                                                                                  |
 | Page Down           | Toggle Gravity                        | Toggle gravity.                                                                      |
 | Home                | Toggle Friendly Fire                  | Toggle friendly fire                                                                                       |
@@ -49,7 +49,6 @@ Config file of key binds to help with NavBot with Zombie Panic: Source https://g
   - If these new areas are on top of already existing ones, use `sm_nav_delete_overlapping_from_selected_set` to remove them
   - Press "Enter" to save
   - Repeat process until all walkable areas have nav mesh
-- Press "Insert" to show spawn points and make sure they have nav mesh
 - Add ladders (to be added)
 - Look for disconnected nav mesh and join them with "F1"
 - Look for and remove nav mesh from non walkable areas (e.g places you don't want the bots going)
